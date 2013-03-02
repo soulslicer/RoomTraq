@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		956BB09716D52B230051A342 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956BB09616D52B230051A342 /* UIKit.framework */; };
+		956BB09916D52B230051A342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956BB09816D52B230051A342 /* Foundation.framework */; };
+		956BB09B16D52B230051A342 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956BB09A16D52B230051A342 /* CoreGraphics.framework */; };
+		956BB0A116D52B230051A342 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 956BB09F16D52B230051A342 /* InfoPlist.strings */; };
+		956BB0A316D52B230051A342 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 956BB0A216D52B230051A342 /* main.m */; };
+		956BB0A716D52B230051A342 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 956BB0A616D52B230051A342 /* AppDelegate.m */; };
+		956BB0AA16D52B230051A342 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 956BB0A816D52B230051A342 /* MainStoryboard.storyboard */; };
+		956BB0AD16D52B230051A342 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 956BB0AC16D52B230051A342 /* ViewController.m */; };
+		956BB0C916D531460051A342 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 956BB0C816D531460051A342 /* GCDAsyncSocket.m */; };
+		956BB0D016D5316D0051A342 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956BB0CF16D5316D0051A342 /* CFNetwork.framework */; };
+		956BB0D216D531710051A342 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 956BB0D116D531710051A342 /* Security.framework */; };
+		9579CA9116DA9E5D0086FF38 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9579CA9016DA9E5D0086FF38 /* SVProgressHUD.m */; };
+		9579CA9416DA9E6F0086FF38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9579CA9316DA9E6F0086FF38 /* QuartzCore.framework */; };
+		9579CA9716DAA4DE0086FF38 /* TableClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9579CA9616DAA4DE0086FF38 /* TableClass.m */; };
+		9579CACC16DAC7370086FF38 /* PHPParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9579CACB16DAC7370086FF38 /* PHPParse.m */; };
+		95B943EC16D674B700DEDE59 /* SetUpWiFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B943EB16D674B700DEDE59 /* SetUpWiFly.m */; };
+		95B943F016D677C100DEDE59 /* ConnectController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B943EF16D677C100DEDE59 /* ConnectController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		956BB09216D52B230051A342 /* RoomTraq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomTraq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		956BB09616D52B230051A342 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		956BB09816D52B230051A342 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		956BB09A16D52B230051A342 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		956BB09E16D52B230051A342 /* RoomTraq-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RoomTraq-Info.plist"; sourceTree = "<group>"; };
+		956BB0A016D52B230051A342 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		956BB0A216D52B230051A342 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		956BB0A416D52B230051A342 /* RoomTraq-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RoomTraq-Prefix.pch"; sourceTree = "<group>"; };
+		956BB0A516D52B230051A342 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		956BB0A616D52B230051A342 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		956BB0A916D52B230051A342 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		956BB0AB16D52B230051A342 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		956BB0AC16D52B230051A342 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		956BB0C716D531460051A342 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		956BB0C816D531460051A342 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		956BB0CF16D5316D0051A342 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		956BB0D116D531710051A342 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9579CA8F16DA9E5D0086FF38 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9579CA9016DA9E5D0086FF38 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9579CA9316DA9E6F0086FF38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9579CA9516DAA4DE0086FF38 /* TableClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableClass.h; sourceTree = "<group>"; };
+		9579CA9616DAA4DE0086FF38 /* TableClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableClass.m; sourceTree = "<group>"; };
+		9579CACA16DAC7370086FF38 /* PHPParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPParse.h; sourceTree = "<group>"; };
+		9579CACB16DAC7370086FF38 /* PHPParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPParse.m; sourceTree = "<group>"; };
+		95B943EA16D674B700DEDE59 /* SetUpWiFly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetUpWiFly.h; sourceTree = "<group>"; };
+		95B943EB16D674B700DEDE59 /* SetUpWiFly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetUpWiFly.m; sourceTree = "<group>"; };
+		95B943EE16D677C100DEDE59 /* ConnectController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectController.h; sourceTree = "<group>"; };
+		95B943EF16D677C100DEDE59 /* ConnectController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		956BB08F16D52B230051A342 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9579CA9416DA9E6F0086FF38 /* QuartzCore.framework in Frameworks */,
+				956BB0D216D531710051A342 /* Security.framework in Frameworks */,
+				956BB0D016D5316D0051A342 /* CFNetwork.framework in Frameworks */,
+				956BB09716D52B230051A342 /* UIKit.framework in Frameworks */,
+				956BB09916D52B230051A342 /* Foundation.framework in Frameworks */,
+				956BB09B16D52B230051A342 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		956BB08716D52B230051A342 = {
+			isa = PBXGroup;
+			children = (
+				9579CA9316DA9E6F0086FF38 /* QuartzCore.framework */,
+				956BB0D116D531710051A342 /* Security.framework */,
+				956BB0CF16D5316D0051A342 /* CFNetwork.framework */,
+				956BB09C16D52B230051A342 /* RoomTraq */,
+				956BB09516D52B230051A342 /* Frameworks */,
+				956BB09316D52B230051A342 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		956BB09316D52B230051A342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				956BB09216D52B230051A342 /* RoomTraq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		956BB09516D52B230051A342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956BB09616D52B230051A342 /* UIKit.framework */,
+				956BB09816D52B230051A342 /* Foundation.framework */,
+				956BB09A16D52B230051A342 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		956BB09C16D52B230051A342 /* RoomTraq */ = {
+			isa = PBXGroup;
+			children = (
+				956BB0A516D52B230051A342 /* AppDelegate.h */,
+				956BB0A616D52B230051A342 /* AppDelegate.m */,
+				956BB0A816D52B230051A342 /* MainStoryboard.storyboard */,
+				956BB0AB16D52B230051A342 /* ViewController.h */,
+				956BB0AC16D52B230051A342 /* ViewController.m */,
+				956BB09D16D52B230051A342 /* Supporting Files */,
+				95B943EA16D674B700DEDE59 /* SetUpWiFly.h */,
+				95B943EB16D674B700DEDE59 /* SetUpWiFly.m */,
+				95B943EE16D677C100DEDE59 /* ConnectController.h */,
+				95B943EF16D677C100DEDE59 /* ConnectController.m */,
+				9579CA9516DAA4DE0086FF38 /* TableClass.h */,
+				9579CA9616DAA4DE0086FF38 /* TableClass.m */,
+			);
+			path = RoomTraq;
+			sourceTree = "<group>";
+		};
+		956BB09D16D52B230051A342 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9579CA8F16DA9E5D0086FF38 /* SVProgressHUD.h */,
+				9579CA9016DA9E5D0086FF38 /* SVProgressHUD.m */,
+				956BB0C716D531460051A342 /* GCDAsyncSocket.h */,
+				956BB0C816D531460051A342 /* GCDAsyncSocket.m */,
+				956BB09E16D52B230051A342 /* RoomTraq-Info.plist */,
+				956BB09F16D52B230051A342 /* InfoPlist.strings */,
+				956BB0A216D52B230051A342 /* main.m */,
+				956BB0A416D52B230051A342 /* RoomTraq-Prefix.pch */,
+				9579CACA16DAC7370086FF38 /* PHPParse.h */,
+				9579CACB16DAC7370086FF38 /* PHPParse.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		956BB09116D52B230051A342 /* RoomTraq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 956BB0B016D52B230051A342 /* Build configuration list for PBXNativeTarget "RoomTraq" */;
+			buildPhases = (
+				956BB08E16D52B230051A342 /* Sources */,
+				956BB08F16D52B230051A342 /* Frameworks */,
+				956BB09016D52B230051A342 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomTraq;
+			productName = RoomTraq;
+			productReference = 956BB09216D52B230051A342 /* RoomTraq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		956BB08916D52B230051A342 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Raaj;
+			};
+			buildConfigurationList = 956BB08C16D52B230051A342 /* Build configuration list for PBXProject "RoomTraq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 956BB08716D52B230051A342;
+			productRefGroup = 956BB09316D52B230051A342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				956BB09116D52B230051A342 /* RoomTraq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		956BB09016D52B230051A342 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956BB0A116D52B230051A342 /* InfoPlist.strings in Resources */,
+				956BB0AA16D52B230051A342 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		956BB08E16D52B230051A342 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956BB0A316D52B230051A342 /* main.m in Sources */,
+				956BB0A716D52B230051A342 /* AppDelegate.m in Sources */,
+				956BB0AD16D52B230051A342 /* ViewController.m in Sources */,
+				956BB0C916D531460051A342 /* GCDAsyncSocket.m in Sources */,
+				95B943EC16D674B700DEDE59 /* SetUpWiFly.m in Sources */,
+				95B943F016D677C100DEDE59 /* ConnectController.m in Sources */,
+				9579CA9116DA9E5D0086FF38 /* SVProgressHUD.m in Sources */,
+				9579CA9716DAA4DE0086FF38 /* TableClass.m in Sources */,
+				9579CACC16DAC7370086FF38 /* PHPParse.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		956BB09F16D52B230051A342 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956BB0A016D52B230051A342 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		956BB0A816D52B230051A342 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				956BB0A916D52B230051A342 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		956BB0AE16D52B230051A342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		956BB0AF16D52B230051A342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		956BB0B116D52B230051A342 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaadhav Raaj (EZKZ2ARCFC)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoomTraq/RoomTraq-Prefix.pch";
+				INFOPLIST_FILE = "RoomTraq/RoomTraq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1E839180-C35F-4841-9733-9090D8FB5C92";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		956BB0B216D52B230051A342 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yaadhav Raaj (EZKZ2ARCFC)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RoomTraq/RoomTraq-Prefix.pch";
+				INFOPLIST_FILE = "RoomTraq/RoomTraq-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1E839180-C35F-4841-9733-9090D8FB5C92";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		956BB08C16D52B230051A342 /* Build configuration list for PBXProject "RoomTraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956BB0AE16D52B230051A342 /* Debug */,
+				956BB0AF16D52B230051A342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		956BB0B016D52B230051A342 /* Build configuration list for PBXNativeTarget "RoomTraq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				956BB0B116D52B230051A342 /* Debug */,
+				956BB0B216D52B230051A342 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 956BB08916D52B230051A342 /* Project object */;
+}
