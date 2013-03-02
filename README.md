@@ -4,7 +4,7 @@ This is the device and app that I built for NUS Hackers Hackathon 2013 in a spac
 
 Basically, it is a little box you can bring around and place it at any event or space you like. As people walk in and out, the sensors and it's internal algorithms will count if someone has entered or exited. Then every 30s, it automatically updates the server with the latest results, including what time the person entered or left!
 
-![ScreenShot](http://a-iats.com/App/RoomTraq.png)
+![ScreenShot](http://a-iats.com/App/Image.png)
 
 ### Hardware Needed
 
